@@ -1,0 +1,38 @@
+Simple version(embed on website)
+
+User
+  Id    firstName lastName  phone Email password  isAdmin isSuperAdmin bookingId ScheduleId
+
+Unavailable Times (SuperAdmin & Admin can manage their own schedules)
+  Id    Date     StartTime   FinishTime  UserId   //so when you can render these times on the calendar
+
+Appointment
+  Id      Date      StartTime   FinishTime  status(booked/canceled)  paid(true/false)  paymentOption(credit/paypal) clientId  ServiceId PropertyId
+
+Services
+  Id    Name    Image    Price    description  isAvailable
+
+Property
+  Id  Location  Sqft  Bedrooms  Bathrooms Type(House/Apartment)
+
+
+As a SuperAdmin User
+1. Add a Service
+2. View all the users
+3. Add, Delete, Update unavailable times
+4. See all users schedules
+
+As a Admin User
+1. View all the users
+2. Add, Delete, Update unavailable time
+3. See own schedule
+
+As a User
+1. Pick a Service
+2. Pick a Date
+3. View all Admin's available timeSchedule
+4. Modify Booking before submit
+5. View own Calendar
+
+
+You need just one blank calendar for every user and you should render their bookings and schedules

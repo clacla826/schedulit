@@ -1,0 +1,20 @@
+{
+  "name": "scheduler",
+  "version": "1.0.0",
+  "description": "scheduling app for photoshoot",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "claudia",
+  "license": "ISC",
+  "dependencies": {
+    "eslint": "^5.1.0",
+    "express": "^4.16.3",
+    "morgan": "^1.9.0",
+    "path": "^0.12.7",
+    "pg": "^7.4.3",
+    "pg-hstore": "^2.3.2",
+    "sequelize": "^4.37.10"
+  }
+}
